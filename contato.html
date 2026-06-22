@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | <span class="text-gradient-brand">Nexora</span></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="animated-bg">
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-blob blob-3"></div>
+    <div class="bg-grid"></div>
+    <div class="bg-noise"></div>
+    <div class="falling-stars">
+      <span class="snow snow-1"></span>
+      <span class="snow snow-2"></span>
+      <span class="snow snow-3"></span>
+      <span class="snow snow-4"></span>
+      <span class="snow snow-5"></span>
+      <span class="snow snow-6"></span>
+      <span class="snow snow-7"></span>
+      <span class="snow snow-8"></span>
+      <span class="snow snow-9"></span>
+      <span class="snow snow-10"></span>
+      <span class="snow snow-11"></span>
+      <span class="snow snow-12"></span>
+      <span class="snow snow-13"></span>
+      <span class="snow snow-14"></span>
+      <span class="snow snow-15"></span>
+      <span class="snow snow-16"></span>
+      <span class="snow snow-17"></span>
+      <span class="snow snow-18"></span>
+      <span class="snow snow-19"></span>
+      <span class="snow snow-20"></span>
+      <span class="snow snow-21"></span>
+      <span class="snow snow-22"></span>
+      <span class="snow snow-23"></span>
+      <span class="snow snow-24"></span>
+      <span class="snow snow-25"></span>
+      <span class="snow snow-26"></span>
+      <span class="snow snow-27"></span>
+      <span class="snow snow-28"></span>
+      <span class="snow snow-29"></span>
+      <span class="snow snow-30"></span>
+      <span class="snow snow-31"></span>
+      <span class="snow snow-32"></span>
+      <span class="snow snow-33"></span>
+      <span class="snow snow-34"></span>
+      <span class="snow snow-35"></span>
+      <span class="snow snow-36"></span>
+    </div>
+  </div>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="brand" aria-label="Nexora Digital Company">
+        <img src="img/logo.png" alt="Logo Nexora" class="logo-img js-logo">
+        <span class="brand-text">Nexora</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="sobre.html">Sobre nós</a></li>
+        <li><a href="planos.html">Planos</a></li>
+        <li><a class="nav-cta" href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero container reveal">
+      <span class="eyebrow">Contato</span>
+      <h1>Conte sua ideia para a Nexora.</h1>
+      <p>Preencha o formulário e envie uma mensagem automática para o WhatsApp da agência.</p>
+    </section>
+
+    <section class="container contact-grid">
+      <form class="contact-form reveal" id="contactForm">
+        <div class="form-row">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Ex: Diego Silva" required>
+        </div>
+
+        <div class="form-row">
+          <label for="telefone">Número de telefone</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="Ex: (34) 99999-9999" required>
+        </div>
+
+        <div class="form-row">
+          <label for="plano">Plano desejado</label>
+          <select id="plano" name="plano" required>
+            <option value="">Selecione um plano</option>
+            <option value="Plano Start">🚀 Plano Start</option>
+            <option value="Plano Nexora">💜 Plano Nexora</option>
+            <option value="Plano Evolution">🔥 Plano Evolution</option>
+            <option value="Ainda não sei">Ainda não sei</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="ideia">Qual é a sua ideia?</label>
+          <textarea id="ideia" name="ideia" rows="6" placeholder="Ex: Quero aumentar meus clientes, criar um site profissional e organizar meu Instagram." required></textarea>
+        </div>
+
+        <button class="btn primary full" type="submit">Enviar pelo WhatsApp</button>
+        <p class="form-note">Ao clicar, uma mensagem pronta será aberta no WhatsApp.</p>
+      </form>
+
+      <aside class="message-preview reveal delay-1">
+        <span class="eyebrow">Prévia da mensagem</span>
+        <h2>Mensagem gerada automaticamente</h2>
+        <div class="preview-message" id="messagePreview">
+          Vim pelo site da Nexora e quero conversar sobre um projeto digital.
+        </div>
+        <p>Edite o número da empresa no arquivo <strong>js/main.js</strong> antes de publicar o site.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand footer-brand">
+          <img src="img/logo.png" alt="Logo Nexora" class="logo-img footer-logo">
+          <span class="brand-text">Nexora</span>
+        </a>
+        <p>Presença digital estratégica para marcas que querem crescer com elegância, confiança e conversão.</p>
+      </div>
+      <div>
+        <h3>Navegação</h3>
+        <a href="index.html">Início</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="sobre.html">Sobre nós</a>
+        <a href="planos.html">Planos</a>
+        <a href="contato.html">Contato</a>
+      </div>
+      <div>
+        <h3>Contato</h3>
+        <p>Atendimento via WhatsApp</p>
+        <a class="footer-link" href="contato.html">Solicitar orçamento</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Nexora Digital Company. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" charset="UTF-8"></script>
+</body>
+</html>
